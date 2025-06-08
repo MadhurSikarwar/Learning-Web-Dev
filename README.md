@@ -1,7 +1,7 @@
 # 🔥 Sigma Web Development Journey – CodeWithHarry Playlist
 
 Welcome to my personal Web Development progress repository! 🚀  
-This repo contains all my code, notes, and practice files from following [CodeWithHarry's Sigma Web Dev Course](https://www.youtube.com/playlist?list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt).
+This repo contains all my code, notes, and practice files from following [CodeWithHarry's Sigma Web Dev Course](https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w).
 
 ---
 
