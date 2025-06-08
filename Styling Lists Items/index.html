@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling List items in navbar</title>
+    <style>
+        .navbar{
+            color: blue;
+            /* list-style: none;  */
+            border: 2px solid red;
+            list-style-position: inside; 
+            /* it makes the styler of the list inside of the box 
+            where as by default it is outside of the boxflow */
+        }
+        .makingNav{
+            list-style: none;
+            display: flex;
+            padding: 45px;
+            
+        }
+        .nav1{
+            margin: 45px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="navbar">Home</li>
+            <li class="navbar">Services</li>
+            <li class="navbar">Contact Us</li>
+            <li class="navbar">Items</li>
+            <li class="navbar">Login</li>
+        </ul>
+        <!-- could be also done targeting this in a different way 
+        nav ul li (nav ke andar ul phir uske andar li aur phir style change kardo css se) --> 
+    </nav>
+    <!-- similarly we can make a simple navbar using the list styling which is being displayed below
+     -->
+    <nav >
+        <ul class="makingNav">
+            <li class="nav1">Home</li>
+            <li class="nav1">About Us</li>
+            <li class="nav1">Services</li>
+            <li class="nav1">Contact Us</li>
+        </ul>
+    </nav>
+    <!-- here I have made two nav elements thats why I have been naming classes and then changing their properties 
+    or else in a normal website there is usually one nav bar element only 
+    there inside that there is no prerequiste of naming the classes, we can directly access the elements in the css and then change the properties accordintg to our needs  -->
+</body>
+</html>

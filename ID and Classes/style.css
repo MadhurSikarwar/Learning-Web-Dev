@@ -1,0 +1,11 @@
+.Red{
+    background-color: red;
+}
+.Pink{
+    background-color: pink;
+}
+#firstdiv{
+    color: blue;
+}
+/* . is used for addressing classes in css 
+# is used for addressing IDs in css */

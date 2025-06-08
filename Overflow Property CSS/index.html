@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow Property in CSS</title>
+</head>
+<style>
+    .box {
+        border: 3px solid blue;
+        width: 200px;
+        height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+        overflow-y: auto;
+        /* when using auto in overflow property the scroll bar appears when it need to be and does not appear when there is sufficient space for displaying the content best option in use when we are dynamically generating all the data */
+        /* white-space:nowrap; */
+        /* when we are using white-space nowrap inside the property then the horizontal scroll appears and the vertical one is absent  */
+        
+
+    }
+</style>
+
+<body>
+    <!-- the Overflow property is used when we are displayed certain part of content on the website in the box format and then when the content exceeds the box we add a horizontal or a vertical scroll bar which makes the website appealing to the user 
+    and makes the website neat -->
+
+
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, totam esse? Eos ipsum reiciendis
+        sint possimus quos eveniet suscipit est quam laborum, voluptate autem odit, adipisci ratione! Veritatis ipsum
+        aliquid ab reiciendis quam ipsam modi nisi perspiciatis? Necessitatibus repellat nam molestiae, rerum illo eos.
+        Commodi minima ut quisquam laborum quam corrupti vel ratione dolor corporis quae dolore repellendus,
+        exercitationem necessitatibus praesentium accusantium modi architecto unde ullam deserunt sint ducimus nam
+        perferendis soluta iusto. Quod quam aspernatur non inventore consequatur, necessitatibus ad. Corporis,
+        reiciendis culpa. Eos, unde ducimus modi nobis accusantium maxime quis. Aperiam autem placeat pariatur,
+        obcaecati doloremque ratione numquam soluta et asperiores, iste laborum, magnam recusandae corporis saepe
+        quidem. Autem!</div>
+</body>
+
+</html>

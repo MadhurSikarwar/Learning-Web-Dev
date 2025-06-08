@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trying out css display property</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Baloo+Bhaijaan+2:wght@400..800&family=Baloo+Tamma+2:wght@400..800&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .divs {
+            font-family: 'Baloo Bhai 2', Times, serif;
+            display: inline-block;
+            /* when  now using incline block margin is given from the top */
+            /* for display inline the margin in from the top is not given */
+            /* if we want to give margin from the top while being the inline element then use the property display: inline-block */
+            border: 2px, solid, blue;
+            margin: 34px;
+            padding: 10px;
+            font-style: oblique;
+            /* padding matlab box ke andar se space chhodi jaayegi chaaro taraf se 
+            margin matlab box ke bahar se space chhodi jaayegi chaaro taraf se */
+
+        }
+
+        /* similrily visibility could also be a property used while representing the contents  */
+    </style>
+</head>
+
+<body>
+    <div class="divs box1">This is the div with box 1</div>
+    <div class="divs box2">This is the div with box 2</div>
+    <div class="divs box3">This is the div with box 3</div>
+    <div class="divs box4">This is the div with box 4</div>
+</body>
+
+</html>

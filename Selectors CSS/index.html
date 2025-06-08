@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        /* div{
+            color: blue;
+        } */
+        /* CLASS SELECTOR */
+        .red{
+            background-color: red;
+        }
+        /* ID SELECTOR */
+        #green{
+            background-color: green;
+        }
+        /* CHILD SELECTOR (DIV KE ANDAR KA KOI AUR TAG KO PROPERTY DENI HAI TAB YE KARENGE) */
+         div > p{ /*(div ke andar agar directly hua tabhi hoga nhi to nhi hoga) */
+            background-color: peru;
+        }
+        /* when star is used it is applied to each and every element in the website 
+        THIS IS KNOWN AS UNIVERSAL SELECTOR */
+        *{
+            margin: 10;
+            padding: 10;
+        }
+        /* Pseudo Selectors  */
+        a:visited{
+            color: blue
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active{
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- this html file will brief us about different type of selectors used in CSS -->
+     <div class="red">
+        This is a div tag
+     </div>
+     <div id="green">
+        I am another div tag which will be also painted red in bg as the whole of element is being treated and painted red in bg
+     </div>
+     <div>
+        <p>This is a p tag inside of a div tag</p>
+     </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.instagram.com">Go to Instagram</a>
+</body>
+</html>

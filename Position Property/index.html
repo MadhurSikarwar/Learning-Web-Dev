@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property in HTMl</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .box {
+            border: 3px solid blue;
+            margin: 20px;
+            padding: 20px;
+        }
+        
+        .box1 {
+            background-color: aqua;
+            top: 0px;
+            left: 0px;
+            /* for z-index the required element also needs to set its position to relative */
+
+        }
+
+        /* z-index calculation let box1 have z-index value as X and box2 have its z-index value as Y
+        which of the respective values in the X and Y is greater the following Z index is respected */
+        /* in the sample code below when box2 got z-index as 10 then box1 should be having value greater than 10 to overwrite and display itself */
+        /* whenever using z-index we need to set the position to relative */
+
+        .box2 {
+            background-color: azure;
+            position: relative;
+        }
+
+        /* commenting out the whole box2 code here  */
+        /* .box2 {
+            background-color: azure;
+            position: relative;
+            bottom: 36px;
+            left: 50px;
+            z-index: 10;
+            /* position: relative; means that I now change the posititon of this box accordingly to the needs of mine from top bottom right and left 
+            }
+        */
+
+        .box3 {
+            background-color: beige;
+        }
+
+        .box4 {
+            background-color: bisque;
+        }
+
+        .box5 {
+            background-color: burlywood;
+        }
+
+        .parent {
+            border: 5px solid purple;
+            margin: 10px;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- making a parent div which consists of more 5 divs  -->
+    <div class="parent">
+        <div class="box box1">This is a div with box 1</div>
+        <div class="box box2">This is a div with box 2</div>
+        <div class="box box3">This is a div with box 3</div>
+        <div class="box box4">This is a div with box 4</div>
+        <div class="box box5">This is a div with box 5</div>
+    </div>
+
+</body>
+
+</html>
